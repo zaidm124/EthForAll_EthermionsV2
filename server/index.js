@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 connectToMongo();
 
-app.use("/api",product)
+app.use("/api/product",product)
 
 
 app.listen(PORT, () => {
